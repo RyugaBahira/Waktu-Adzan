@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/green1"
+        android:orientation="horizontal" >
+       
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/ic_launcher" />
+            	
+    	<TextView
+    	    android:id="@+id/judul_pesan"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="50dp"
+    	    android:layout_marginLeft="10dp"
+    	    android:layout_marginRight="10dp"
+    	    android:gravity="center_vertical"
+    	    android:text="Pemberitahuan"
+    	    android:textAppearance="?android:attr/textAppearanceMedium"
+    	    android:textColor="@color/warna_backgound"
+    	    android:textSize="15sp"
+    	    android:textStyle="bold" />
+            	
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green1"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warna_backgound"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/isi_pesan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green1"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/cekno_ask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:checked="false"
+                    android:paddingLeft="5dp"
+                    android:text="exit_no_ask"
+                    android:textColor="@color/green1"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape_green"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="OK"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape1"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="Batal"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView> 
+</LinearLayout>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toast"
+    style="@drawable/image_shape2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_shape3_2"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@style/CustomProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/imoslem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/judul_pesan_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:shadowColor="@color/hitam"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="Pemberitahuan"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/warna_backgound"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+            	
+    	<TextView
+    	    android:id="@+id/judul_pesan"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center_horizontal|center_vertical"
+    	    android:layout_marginTop="5dp"
+    	    android:gravity="center_vertical|center_horizontal"
+    	    android:shadowColor="@color/hitam"
+    	    android:shadowDx="2"
+    	    android:shadowDy="2"
+    	    android:shadowRadius="2"
+    	    android:text="Pemberitahuan"
+    	    android:textAppearance="?android:attr/textAppearanceMedium"
+    	    android:textColor="@color/warna_backgound"
+    	    android:textSize="15sp"
+    	    android:textStyle="bold" />
+
+    	<Button
+    	    android:id="@+id/btn2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="35dp"
+    	    android:layout_gravity="center_horizontal"
+    	    android:layout_marginLeft="5dp"
+    	    android:background="@drawable/button_shape1"
+    	    android:shadowColor="@color/hitam"
+    	    android:shadowDx="2"
+    	    android:shadowDy="2"
+    	    android:shadowRadius="2"
+    	    android:text="Batal"
+    	    android:textAppearance="?android:attr/textAppearanceSmall"
+    	    android:textColor="@color/warna_backgound"
+    	    android:textSize="12sp"
+    	    android:textStyle="bold"
+    	    android:visibility="gone" />
+            	
+     </LinearLayout> 
+</LinearLayout>

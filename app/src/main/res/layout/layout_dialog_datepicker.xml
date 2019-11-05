@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/green1"
+        android:orientation="horizontal" >
+       
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/ic_launcher" />
+            	
+    	<TextView
+    	    android:id="@+id/judul_pesan"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="50dp"
+    	    android:layout_marginLeft="10dp"
+    	    android:layout_marginRight="10dp"
+    	    android:gravity="center_vertical"
+    	    android:text="@string/shalattools_menuju_tanggal"
+    	    android:textAppearance="?android:attr/textAppearanceMedium"
+    	    android:textColor="@color/warna_backgound"
+    	    android:textSize="15sp"
+    	    android:textStyle="bold" />
+            	
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/green1"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/warna_backgound"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/thijri"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="@string/hijri"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/green1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tmasehi"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="@string/gregorian"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/green1"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <ToggleButton
+                        android:id="@+id/swcalendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:background="@drawable/toggle_selector2"
+                        android:checked="false"
+                        android:textOff=" "
+                        android:textOn=" " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/datePickerHijriyyah"
+                    style="@style/TimePickerStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <NumberPicker
+                        android:id="@+id/tglhijri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <NumberPicker
+                        android:id="@+id/blnhijri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <NumberPicker
+                        android:id="@+id/thnhijri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+			                
+                <DatePicker
+                    android:id="@+id/datePickerMasehi"
+                    style="@style/TimePickerStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp"
+                    android:calendarTextColor="@color/warna_backgound"
+                    android:calendarViewShown="false" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_shape_green"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="@string/str_btnsettgl"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="100dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/button_shape1"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="@string/str_btnbatal"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView> 
+</LinearLayout>

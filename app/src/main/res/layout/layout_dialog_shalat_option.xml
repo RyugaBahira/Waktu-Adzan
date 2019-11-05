@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="20dp"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:id="@+id/layout_atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/judul_pesan"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/opsi_notifikasi_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/warna_backgound"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green1"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/warna_backgound"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/txtinfoshalat"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green1"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="-5dp"
+                    android:src="@drawable/up_menu" />
+
+                <RadioGroup
+                    android:id="@+id/rgrup_alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/cekadzan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:drawableRight="@drawable/alarm_on"
+                        android:paddingLeft="5dp"
+                        android:text="@string/opsi_notifikasi_adzan"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green1"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/adzanvol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/shalattools_setvolume"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green1"
+                        android:textSize="15sp" />
+
+                    <SeekBar
+                        android:id="@+id/slider"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="center"
+                        android:max="10"
+                        android:maxHeight="10dip"
+                        android:minHeight="10dip"
+                        android:progress="5"
+                        android:secondaryProgress="5" />
+
+                    <RadioButton
+                        android:id="@+id/ceknotif"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:drawableRight="@drawable/alarm_notif"
+                        android:paddingLeft="5dp"
+                        android:text="@string/opsi_notifikasi_notif"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green1"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/ceknotif2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:drawableRight="@drawable/alarm_notif"
+                        android:paddingLeft="5dp"
+                        android:text="@string/opsi_notifikasi_notif2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green1"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/cekoff"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:drawableRight="@drawable/alarm_off"
+                        android:paddingLeft="5dp"
+                        android:text="@string/opsi_notifikasi_off"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green1"
+                        android:textSize="15sp" />
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btntest"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_shape_green"
+                    android:shadowColor="@color/hitam"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/str_btntest"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/warna_backgound"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="100dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_shape_green"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="@string/str_btnok"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="100dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/button_shape1"
+                        android:shadowColor="@color/hitam"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="@string/str_btnbatal"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/warna_backgound"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

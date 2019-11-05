@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_shape1"
+    android:padding="10dp" >
+
+    <AutoCompleteTextView
+        android:id="@+id/edinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_shape1"
+        android:drawableRight="@drawable/delete_icon2"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/warna_backgound"
+        android:textColorHint="@color/putih"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone">
+
+    </AutoCompleteTextView>
+
+    <fragment
+        android:id="@+id/mapViewKiblat"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lay_bawah"
+        android:layout_below="@+id/edinput"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/lay_bawah" >
+
+        <ImageView
+            android:id="@+id/imarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/you"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/lay_bawah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green1"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/judul_pesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:shadowColor="@color/hitam"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/warna_backgound"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape1"
+                android:shadowColor="@color/hitam"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="OK"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/warna_backgound"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape1"
+                android:shadowColor="@color/hitam"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="Cancel"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/warna_backgound"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
