@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true"><shape>
+            <solid android:color="@color/color_widgettab" />
+            <padding android:bottom="0dp" android:left="10dp" android:right="20dp" android:top="0dp" />
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="50dp" android:topRightRadius="100dp" />
+        </shape></item>
+
+</selector>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_H"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/grup_shape2"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/txtjudul_H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:shadowColor="@color/hitam"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="@string/shalattools_kiblat_judul"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/warna_backgound"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grup_shape"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtkota_H"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingMultiplier="0.9"
+                    android:maxLines="2"
+                    android:text="@string/widget_wait_message"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/putihx"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnegara_H"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/putihx"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/txtinfo_H"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_kiblatH"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imgdownH"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/compas_image_H"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down" />
+
+            <ImageView
+                android:id="@+id/compas_image_H"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/compass" />
+
+            <ImageView
+                android:id="@+id/front_image_H"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/compass_needle" />
+
+            <TextView
+                android:id="@+id/txtMagneticH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/compas_image_H"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green1"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMagneticH"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:text="@string/shalattools_peta_lokasi"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/warna_backgound"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/icekgps"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/compas_image_H"
+                android:layout_alignTop="@+id/imgdownH"
+                android:background="@drawable/image_shape2"
+                android:scaleType="fitXY"
+                android:src="@drawable/gps" />
+
+            <ImageView
+                android:id="@+id/imanual"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/imgdownH"
+                android:layout_alignRight="@+id/compas_image_H"
+                android:background="@drawable/image_shape2"
+                android:scaleType="fitXY"
+                android:src="@drawable/map" />
+
+            <ImageView
+                android:id="@+id/imgdownHlight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imgdownH"
+                android:layout_alignTop="@+id/imgdownH"
+                android:scaleType="fitXY"
+                android:src="@drawable/downlight" />
+
+            <ImageView
+                android:id="@+id/front_image_light"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/compass_needle2" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_warningH"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="60dp"
+            android:paddingTop="40dp"
+            android:paddingRight="60dp"
+            android:paddingBottom="40dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/shalattools_gps_needed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green1" />
+
+            <Button
+                android:id="@+id/gpsH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape3"
+                android:shadowColor="@color/hitam"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="Aktifkan GPS"
+                android:textColor="@color/warna_backgound"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/manualH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape3"
+                android:shadowColor="@color/hitam"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="Atur Lokasi Manual"
+                android:textColor="@color/warna_backgound"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

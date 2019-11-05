@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true" android:state_pressed="true"><shape>
+            <solid android:color="@color/green1" />
+
+            <padding android:bottom="4dp" android:left="0dp" android:right="0dp" android:top="4dp" />
+
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+        </shape></item>
+    <item android:state_focused="false" android:state_pressed="true"><shape>
+            <solid android:color="@color/green1" />
+
+            <padding android:bottom="4dp" android:left="0dp" android:right="0dp" android:top="4dp" />
+
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+        </shape></item>
+    <item android:state_focused="true" android:state_pressed="false"><shape>
+            <solid android:color="@color/green1" />
+
+            <padding android:bottom="4dp" android:left="0dp" android:right="0dp" android:top="4dp" />
+
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+        </shape></item>
+    <item android:state_enabled="true" android:state_focused="false" android:state_pressed="false"><shape>
+            <solid android:color="@color/green1" />
+
+            <padding android:bottom="4dp" android:left="0dp" android:right="0dp" android:top="4dp" />
+
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+        </shape></item>
+
+</selector>

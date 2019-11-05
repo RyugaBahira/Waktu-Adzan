@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_pressed="true"><layer-list>
+            <item android:left="2dp" android:top="2dp"><shape>
+                    <solid android:color="@color/yellow2" />
+
+                    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_enabled="true" android:state_pressed="false"><layer-list>
+            <item android:left="2dp" android:top="2dp"><shape>
+                    <solid android:color="@color/green1" />
+
+                    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_enabled="false"><layer-list>
+            <item android:left="2dp" android:top="2dp"><shape>
+                    <solid android:color="@color/abu_abu3_clicked" />
+
+                    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+                </shape></item>
+        </layer-list></item>
+    <item><layer-list>
+
+            <!-- SHADOW LAYER -->
+            <item android:left="2dp" android:top="2dp"><shape>
+                    <solid android:color="@color/hitam" />
+
+                    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+                </shape></item>
+            <!-- CONTENT LAYER -->
+            <item android:bottom="2dp" android:right="2dp"><shape>
+                    <solid android:color="@color/yellow2" />
+
+                    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+
+                    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                </shape></item>
+        </layer-list></item>
+
+</selector>
