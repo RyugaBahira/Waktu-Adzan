@@ -23,4 +23,9 @@ Jadwal Waktu Shalat &amp; Notifikasi Adzan
 4. sahaab-hijricalendar
 
 # Feel free to modified
+
+# See my Full app here
+https://play.google.com/store/apps/details?id=com.ryugabahira.imoslem
+
 # Baarakallah fiik
+
