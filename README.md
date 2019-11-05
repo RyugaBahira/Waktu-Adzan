@@ -11,3 +11,6 @@ Jadwal Waktu Shalat &amp; Notifikasi Adzan
 2. azan-AhmedEltaher
 3. msarhan-ummalqura
 4. sahaab-hijricalendar
+
+# Feel free to modified
+# Baarakallah fiik
