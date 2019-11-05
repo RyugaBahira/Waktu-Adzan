@@ -24,8 +24,8 @@ Jadwal Waktu Shalat &amp; Notifikasi Adzan
 
 # Feel free to modified
 
-# See my Full app here
-https://play.google.com/store/apps/details?id=com.ryugabahira.imoslem
+# See my Full app Qur'an Muslim here
+![Qur'an Muslim](https://lh3.googleusercontent.com/K1Amd9XRwMD94oU2taknUsQ41OLzKOZaxOBrb6Q0gmKHvwKc4VsBmGI0cG0v2683qogx=s180-rw) https://play.google.com/store/apps/details?id=com.ryugabahira.imoslem
 
 # Baarakallah fiik
 
