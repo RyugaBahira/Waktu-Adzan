@@ -7,7 +7,7 @@ Jadwal Waktu Shalat &amp; Notifikasi Adzan
 4. Sync / Try again
 
 # Thanks to Library Creator
-antonyt-infiniteviewpager
-azan-AhmedEltaher
-msarhan-ummalqura
-sahaab-hijricalendar
+1. antonyt-infiniteviewpager
+2. azan-AhmedEltaher
+3. msarhan-ummalqura
+4. sahaab-hijricalendar
