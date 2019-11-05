@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ce0b0b</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#BB995B</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#BB995B</color>
+
+
+
+    <color name="blue_dark">#032E38</color>
+    <color name="blue_light">#358A9F</color>
+    <color name="putihx">#FFFFFF</color>
+    <color name="warna_backgound">#ffffff</color>
+    <!-- <color name="putih">#B4B4B4</color> -->
+    <color name="putih">#B4B4B4</color>
+
+    <color name="hitam">#000000</color>
+    <color name="hitam_trans">#C0000000</color>
+    <color name="biru">#13A6DF</color>
+    <color name="biru_trans">#AA13A6DF</color>
+    <color name="biru_trans2">#1113A6DF</color>
+    <color name="abu_abu">#F9F9F9</color>
+    <color name="abu_abu_trans">#AAF9F9F9</color>
+    <color name="abu_abu2">#A9A9A9</color>
+    <color name="abu_abu3">#1E1E1E</color>
+    <color name="abu_abu4">#DD1E1E1E</color>
+    <color name="blue_dark_clicked">#335E68</color>
+    <color name="putih_trans">#DDB4B4B4</color>
+    <color name="putih_trans2">#50B4B4B4</color>
+    <color name="putih_translight">#DDFFFFFF</color>
+    <color name="abu_abu3_clicked">#4E4E4E</color>
+    <color name="text_color1">#032E38</color>
+    <color name="green1">#1F2D20</color>
+    <color name="green_trans_intro">#F11F2D20</color>
+
+    <color name="color_widgettab">#CCA17940</color>
+    <color name="color_widgettab2">#F1A17940</color>
+    <color name="green2">#157D07</color>
+    <color name="green_transx">#CC1E2E20</color>
+    <color name="green_transx2">#F31E2E20</color>
+    <color name="green_focused">#1B271C</color>
+    <color name="green_focused2">#501B2B1D</color>
+    <color name="green_trans2">#603F6344</color>
+    <color name="green_trans3">#40344C34</color>
+    <color name="color_event">#F65050</color>
+
+    <color name="orange1">#B37D08</color>
+    <color name="red1">#ce0b0b</color>
+    <color name="red2">#CCCC3433</color>
+    <color name="trans">#00000000</color>
+
+    <color name="yellow">#9A753F</color>
+    <color name="yellow2">#BB995B</color>
+    <color name="yellow_trans2">#2057855B</color>
+    <color name="yellow_trans3">#10121A12</color>
+    <color name="yellow_trans1">#50BB995B</color>
+    <color name="yellow_trans_intro">#F19A753F</color>
+</resources>

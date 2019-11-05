@@ -1,0 +1,72 @@
+<resources>
+    <!--<string name="google_api_key_geocode">KEY_API_GOOGLE</string>
+    <string name="google_api_key_place">GOOGLE KEY API</string>
+    <string name="google_api_key_map">GOOGLE KEY MAP</string>-->
+    <string name="google_api_key_map" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
+    <string name="google_api_key_geocode" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
+    <string name="google_api_key_place" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
+
+    <string name="app_name">Waktu Adzan</string>
+    <string name="str_btnbatal">Batal</string>
+    <string name="shalattools_refresh_lokasi">Me-Refresh Lokasi</string>
+    <string name="shalattools_title_location_permission">Permission Access</string>
+    <string name="shalattools_text_location_permission">GPS Location Permission dibutuhkan.\nLanjut ?</string>
+    <string name="str_btnlanjut">Lanjut</string>
+    <string name="shalattools_arahkiblat">Arah Kiblat :</string>
+    <string name="shalattools_dariutara">° ke arah</string>
+    <string name="shalattools_jarakkekiblat">jarak ke Kiblat :</string>
+    <string name="shalat_jumat">Jum\'at</string>
+    <string name="shalat_dzuhur_name">Dzuhur</string>
+    <string name="judul_notif_utama_in">Service sedang dijalankan\nNotifikasi ini muncul pada perangkat Nougat (7.0) ke atas agar fitur-fitur tetap berjalan</string>
+    <string name="dilarang_shalat">Dilarang Shalat</string>
+    <string name="shalat_sekarang">Sekarang</string>
+    <string name="syuruq_name">Syuruq</string>
+    <string name="shalat_subuh_name">Subuh</string>
+    <string name="shalat_isya_name">Isya</string>
+    <string name="str_mindate">Tidak bisa pindah kurang dari 1 Januari 1938</string>
+    <string name="shalat_ashar_name">Ashar</string>
+    <string name="shalat_maghrib_name">Maghrib</string>
+    <string name="judul_hari">Hari ini</string>
+    <string name="judul_hari2">Sebelumnya</string>
+    <string name="judul_hari3">Berikutnya</string>
+    <string name="widget_wait_title">Not Ready ...</string>
+    <string name="widget_wait_message">Please Wait ...</string>
+    <string name="shalat_berikutnya">Berikutnya</string>
+    <string name="mainmenu_gps_unknown">GPS not detected</string>
+    <string name="str_btnsimpan">Simpan</string>
+    <string name="opsi_notifikasi_title">Opsi Notifikasi</string>
+    <string name="method">Method</string>
+    <string name="str_btnhentikan">Hentikan</string>
+    <string name="shalattools_menuju_tanggal">Beralih ke Tanggal</string>
+    <string name="hijri">Hijriyah</string>
+    <string name="opsi_notifikasi_adzan">Notifikasi Adzan</string>
+    <string name="shalattools_setvolume">Set Volume</string>
+    <string name="shalattools_setsilent">Silent</string>
+    <string name="opsi_notifikasi_notif">Notifikasi Suara</string>
+    <string name="opsi_notifikasi_notif2">Notifikasi tanpa suara</string>
+    <string name="opsi_notifikasi_off">Tanpa Notifikasi</string>
+    <string name="str_btntest">Test Notifikasi</string>
+    <string name="opsi_notifikasi_adzan_dipilih">dipilih</string>
+    <string name="setting_title_sdcard_permission">SDCard Permission</string>
+    <string name="setting_text_sdcard_permission_backup">Ijinkan Akses SDCard</string>
+    <string name="gregorian">Masehi</string>
+    <string name="str_btnsettgl">Set Tanggal</string>
+    <string name="str_btnok">OK</string>
+    <string name="shalattools_str_back1">kembali</string>
+    <string name="shalattools_str_back2">ke hari ini</string>
+    <string name="shalattools_kiblat_manualtitle">Set Manual Arah Kiblat</string>
+    <string name="shalattools_kiblat_manualinfo">Perhatian : Proses ini membutuhkan koneksi internet.\nLanjutkan ?</string>
+    <string name="shalattools_kiblat_judul">Arah Kiblat</string>
+    <string name="shalattools_gps_needed">Mohon aktifkan GPS anda untuk mendapatkan lokasi kiblat dari lokasi anda. Koneksi internet dibutuhkan untuk menentukan daerah anda.</string>
+    <string name="shalattools_peta_lokasi">Klik kompas untuk melihat peta.\nUntuk meng-kalibrasi kompas, anda bisa menggerakkan perangkat anda mengikuti pola angka 8</string>
+    <string name="shalattools_accuracy">Akurasi :</string>
+    <string name="shalattools_altitude">Ketinggian :</string>
+    <string name="shalattools_manual_title">Lokasi manual yang dipilih :</string>
+    <string name="shalattools_kalender_judul">Kalender Hijriyyah</string>
+
+
+    <string-array name="list_adzan">
+        <item>Sheikh Abdulkarim Al-Fatani Al-Makki</item>
+
+    </string-array>
+</resources>
