@@ -1,5 +1,5 @@
 <resources>
-    string name="google_api_key_geocode">KEY_API_GOOGLE</string>
+    <string name="google_api_key_geocode">KEY_API_GOOGLE</string>
     <string name="google_api_key_place">GOOGLE KEY API</string>
     <string name="google_api_key_map">GOOGLE KEY MAP</string>
 
