@@ -1,10 +1,7 @@
 <resources>
-    <!--<string name="google_api_key_geocode">KEY_API_GOOGLE</string>
+    string name="google_api_key_geocode">KEY_API_GOOGLE</string>
     <string name="google_api_key_place">GOOGLE KEY API</string>
-    <string name="google_api_key_map">GOOGLE KEY MAP</string>-->
-    <string name="google_api_key_map" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
-    <string name="google_api_key_geocode" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
-    <string name="google_api_key_place" translatable="false">AIzaSyC5_JgpClPhFyEFkuM_Vns2_LSfVloQJ_0</string>
+    <string name="google_api_key_map">GOOGLE KEY MAP</string>
 
     <string name="app_name">Waktu Adzan</string>
     <string name="str_btnbatal">Batal</string>
